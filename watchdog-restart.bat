@@ -1,5 +1,5 @@
 @echo off
-set PREFIX=siak-proxy-
+set PREFIX=sproxy-
 
 for /f "delims=" %%S in ('
   powershell -NoProfile -Command "Get-Service | Where-Object { $_.Name -like \"%PREFIX%*\" } | Select-Object -ExpandProperty Name"

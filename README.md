@@ -1,12 +1,12 @@
-# 🚀 SIAK Proxy Manager
+# 🚀 S-Proxy Manager
 
-Aplikasi untuk manajemen proxy SIAK dengan mudah dan otomatis.
+Aplikasi untuk manajemen proxy dengan mudah dan otomatis.
 
 ---
 
 ## 📋 Deskripsi
 
-Aplikasi ini membantu Anda mengelola multiple proxy SIAK secara efisien:
+Aplikasi ini membantu Anda mengelola multiple proxy secara efisien:
 - ✅ Install/Uninstall proxy dengan mudah
 - ✅ Auto-restart setiap 5 menit (watchdog)
 - ✅ Dashboard monitoring
@@ -18,7 +18,7 @@ Aplikasi ini membantu Anda mengelola multiple proxy SIAK secara efisien:
 
 ### 1️⃣ Siapkan Source Code Proxy
 
-Pastikan source code proxy SIAK sudah ada di folder **`source`**:
+Pastikan source code proxy sudah ada di folder **`source`**:
 
 ```
 c:\sproxy\
@@ -65,7 +65,7 @@ proxy-manager.bat
 
 ```
 =========================================
-       SIAK PROXY MANAGER
+       PROXY MANAGER
 =========================================
 1. Lihat Daftar Proxy
 2. Tambah Proxy
@@ -127,9 +127,9 @@ c:\sproxy\
 
 ## ⚙️ Service Names
 
-- **Proxy Services:** `siak-proxy-3001`, `siak-proxy-3002`, dst.
+- **Proxy Services:** `sproxy-3001`, `sproxy-3002`, dst.
 - **Dashboard Service:** `proxy-dashboard`
-- **Task Scheduler:** `SIAK Proxy Auto Restart`
+- **Task Scheduler:** `sproxy Auto Restart`
 
 ---
 
@@ -142,7 +142,7 @@ c:\sproxy\
 
 ### Auto-restart tidak bekerja?
 1. Buka Task Scheduler (`taskschd.msc`)
-2. Cari task **"SIAK Proxy Auto Restart"**
+2. Cari task **"sproxy Auto Restart"**
 3. Pastikan statusnya **Ready** dan **Enabled**
 
 ### Dashboard tidak bisa diakses?
@@ -159,12 +159,3 @@ c:\sproxy\
 - ✅ Path otomatis menyesuaikan lokasi folder aplikasi (portable)
 - ⚠️ Selalu jalankan sebagai **Administrator**
 
----
-
-## 📞 Support
-
-Jika ada masalah atau pertanyaan, hubungi tim developer SIAK.
-
----
-
-**Happy Proxying! 🎉**

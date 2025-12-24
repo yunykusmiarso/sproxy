@@ -19,7 +19,7 @@ if (fs.existsSync(configPath)) {
 }
 
 const PORT = config.port;
-const PREFIX = 'siak-proxy-';
+const PREFIX = 'sproxy-';
 const RESTART_ALL_PIN = config.restartAllPin;
 
 // =======================
@@ -131,7 +131,7 @@ const server = http.createServer(async (req, res) => {
 <html>
 <head>
 <meta charset="utf-8">
-<title>SIAK Proxy Dashboard</title>
+<title>Sproxy Dashboard</title>
 <style>
 body { margin:0; font-family:Segoe UI; background:#020617; color:#e5e7eb }
 header {
@@ -313,7 +313,7 @@ window.onload = load;
 
 <body>
 <header>
-  <h2>SIAK Proxy Dashboard</h2>
+  <h2>Sproxy Dashboard</h2>
   <button class="main" onclick="restartAll()">Restart ALL Proxy</button>
 </header>
 

@@ -21,7 +21,7 @@ set DASH_DIR=%BASE%\dashboard
 :MENU
 cls
 echo =========================================
-echo        SIAK PROXY MANAGER
+echo        SPROXY MANAGER
 echo =========================================
 echo 1. Lihat Daftar Proxy
 echo 2. Tambah Proxy
