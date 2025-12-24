@@ -148,7 +148,7 @@ c:\sproxy\
 ### Dashboard tidak bisa diakses?
 1. Pastikan Node.js sudah terinstall
 2. Jalankan menu **7** (Restart Dashboard)
-3. Akses `http://localhost:4000`
+3. Akses `http://localhost:9000`
 
 ---
 
