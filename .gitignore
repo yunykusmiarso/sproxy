@@ -1,0 +1,16 @@
+# Ignore executable files in source folder only
+source/index-x64.exe
+source/index-x86.exe
+source/*.exe
+
+# Ignore msp folder in source
+source/msp/
+
+# Ignore proxy instance folders (port folders)
+[0-9]*/
+
+# Node modules
+node_modules/
+
+# Log files
+*.log
